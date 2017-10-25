@@ -11,7 +11,7 @@ public class GrandCircusLab2 {
 		Scanner scnr = new Scanner (System.in);
 		
 		num = scnr.nextInt();
-		x = num % 2;
+		x = num % 2;  // Determine if number is even
 		
 		// branch for even numbers
 		if ( x == 0) {
@@ -27,6 +27,7 @@ public class GrandCircusLab2 {
 			
 			}
 		
+		//Odd number branch
 		else if (num > 60) {
 			System.out.println(num + " Odd and over 60.");
 			}
